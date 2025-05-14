@@ -1,4 +1,4 @@
-namespace PDFParserApp.Interfaces;
+namespace PDFParserConsoleApp.Interfaces;
 
 public interface IFileProcessor
 {

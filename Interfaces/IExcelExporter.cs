@@ -1,6 +1,6 @@
-using PDFParserApp.Models;
+using PDFParserConsoleApp.Models;
 
-namespace PDFParserApp.Interfaces;
+namespace PDFParserConsoleApp.Interfaces;
 
 public interface IExcelExporter
 {

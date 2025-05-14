@@ -1,4 +1,4 @@
-namespace PDFParserApp.Models;
+namespace PDFParserConsoleApp.Models;
 
 public class TableRow
 {

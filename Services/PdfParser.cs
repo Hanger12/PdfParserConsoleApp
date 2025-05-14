@@ -1,9 +1,9 @@
-using PDFParserApp.Interfaces;
-using PDFParserApp.Models;
+using PDFParserConsoleApp.Interfaces;
+using PDFParserConsoleApp.Models;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
-namespace PDFParserApp.Services;
+namespace PDFParserConsoleApp.Services;
 
 public class PdfParser : IPdfParser
 {

@@ -1,7 +1,7 @@
-using PDFParserApp.Interfaces;
-using PDFParserApp.Models;
+using PDFParserConsoleApp.Interfaces;
+using PDFParserConsoleApp.Models;
 
-namespace PDFParserApp.Services;
+namespace PDFParserConsoleApp.Services;
 
 public class FileProcessor : IFileProcessor
 {

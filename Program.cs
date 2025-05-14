@@ -1,6 +1,6 @@
-using PDFParserApp.Services;
+using PDFParserConsoleApp.Services;
 
-namespace PDFParserApp;
+namespace PDFParserConsoleApp;
 
 public class Program
 {

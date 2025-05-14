@@ -1,7 +1,7 @@
-using PDFParserApp.Interfaces;
-using PDFParserApp.Models;
+using PDFParserConsoleApp.Interfaces;
+using PDFParserConsoleApp.Models;
 using ClosedXML.Excel;
-namespace PDFParserApp.Services;
+namespace PDFParserConsoleApp.Services;
 
 public class ExcelExporter : IExcelExporter
 {
