@@ -16,7 +16,7 @@ public class Program
         }
 
         var processor = new FileProcessor(
-            new PdfParser(new TableStructureAnalyzer()),
+            new PdfParser(),
             new ExcelExporter(),
             null);
 

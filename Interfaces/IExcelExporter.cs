@@ -1,8 +1,11 @@
-using PDFParserConsoleApp.Models;
-
 namespace PDFParserConsoleApp.Interfaces;
 
 public interface IExcelExporter
 {
-    void Export(List<TableRow> rows, string outputPath);
+
+    public void SaveToExcel(
+        List<Dictionary<string, string?>> table,
+        List<string> columnNames,
+        string filePath,
+        Dictionary<string, string?>? saldoData = null);
 }
