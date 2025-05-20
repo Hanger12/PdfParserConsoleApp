@@ -1,8 +1,6 @@
-using PDFParserConsoleApp.Models;
-
 namespace PDFParserConsoleApp.Interfaces;
 
 public interface IPdfParser
 {
-    List<TableRow> Parse(string path);
+    public (List<Dictionary<string, string?>> Rows, List<string> ColumnNames, Dictionary<string, string?> SaldoData) Parse(string path);
 }
